@@ -1,0 +1,3 @@
+SELECT count(*)+1 as rank
+FROM `game_music`
+WHERE `video_len` > '4'
